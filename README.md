@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in ActionScript 3 related to default values for optional parameters.  When a function has an optional parameter with a non-primitive type, assigning a default value directly within the function signature might not behave as intended. The bug is described in detail in the `bug.as` file, and a solution is presented in `bugSolution.as`.
